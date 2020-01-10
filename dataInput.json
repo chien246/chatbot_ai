@@ -1,0 +1,20 @@
+[
+	{	"text":"hôm nay thời tiết như thế nào",
+		"type":"weather"	
+	},
+	{	"text":"thời tiết hôm nay như thế nào",
+		"type":"weather"	
+	},
+	{	"text":"hôm nay nắng mưa thế nào",
+		"type":"weather"	
+	},
+	{	"text":"chào bạn",
+		"type":"greetings"	
+	},
+	{	"text":"bạn có rảnh không",
+		"type":"greetings"	
+	},
+	{	"text":"cho tôi hỏi một chút được không",
+		"type":"greetings"	
+	}
+]
