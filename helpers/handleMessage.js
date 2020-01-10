@@ -127,7 +127,6 @@ module.exports.handleMessage = async (sender_psid, received_message) => {
     let response;
     if (received_message.text) {
         let rs = await mlcode.main(received_message.text);
-        console.log(rs);
         
         if(rs == "greetings") {
             let ans = ['chào bạn','tôi có thể giúp gì cho bạn','rất vui được hỗ trợ bạn'];
@@ -138,7 +137,7 @@ module.exports.handleMessage = async (sender_psid, received_message) => {
             response = now+"\n"+forecast_j;
         };
         if(rs == "quantity") {
-            response = "Chúng tôi có tổng cộng là 8 sân bạn nhé!"
+            response = "Chúng tôi có tổng cộng là 8 sân bạn nhé";
         };
         
         console.log(response);
