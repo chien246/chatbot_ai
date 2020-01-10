@@ -76,7 +76,7 @@ request(url, (err, response, data) => {
                 temperatureMax = temperatureMax.toFixed(0);
                 humidity = forecast_i.humidity[0].$.value;
                 now =
-                    "Thời tiết bây giờ \n" +
+                    "THỜI TIẾT BÂY GIỜ \n" +
                     "Sate: " +
                     state +
                     "\n" +
@@ -103,7 +103,7 @@ request(url, (err, response, data) => {
                 temperatureMax = temperatureMax.toFixed(0);
                 humidity = forecast_i.humidity[0].$.value;
                 forecast_j =
-                    "thời tiết dự báo ngày mai \n" +
+                    "THỜI TIẾT DỰ BÁO NGÀY MAI \n" +
                     "Sate: " +
                     state +
                     "\n" +
@@ -136,7 +136,7 @@ module.exports.handleMessage = async (sender_psid, received_message) => {
             response = ans[index];
         };
         if(rs == "weather") {
-            response = now+forecast_j;
+            response = now+"\n"+forecast_j;
         };
         
         console.log(response);
