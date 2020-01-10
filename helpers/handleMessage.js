@@ -137,12 +137,15 @@ module.exports.handleMessage = async (sender_psid, received_message) => {
         if(rs == "weather") {
             response = now+"\n"+forecast_j;
         };
+        if(rs == "quantity") {
+            response = "Chúng tôi có tổng cộng là 8 sân bạn nhé!"
+        }
         
         console.log(response);
         let text = {"text": `${response}`};
         
         callSendAPI(sender_psid,text);
-    } else console.log("hihi");
+    }
 };
 
 const callSendAPI = (sender_psid, response, cb = null) => {

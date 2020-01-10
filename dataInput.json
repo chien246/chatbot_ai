@@ -16,5 +16,15 @@
 	},
 	{	"text":"cho tôi hỏi một chút được không",
 		"type":"greetings"	
+	},
+	{	"text":"có bao nhiêu sân",
+		"type":"quatity"	
+	},
+	{	"text":"bao nhiêu sân",
+		"type":"quatity"	
+	},
+	{	"text":"số lượng sân là bao nhiêu",
+		"type":"quatity"	
 	}
+
 ]
