@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 const app = express();
 const PORT = process.env.PORT || 1137;
 const router = require("./router/index");
-const witRouter = require("./router/witRouter");
+
 
 app.use(bodyParser.json());
 app.use("/", router);
