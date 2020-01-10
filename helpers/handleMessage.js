@@ -139,7 +139,7 @@ module.exports.handleMessage = async (sender_psid, received_message) => {
         };
         if(rs == "quantity") {
             response = "Chúng tôi có tổng cộng là 8 sân bạn nhé!"
-        }
+        };
         
         console.log(response);
         let text = {"text": `${response}`};
