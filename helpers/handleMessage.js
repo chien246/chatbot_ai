@@ -128,6 +128,7 @@ module.exports.handleMessage = async (sender_psid, received_message) => {
     let response;
     if (received_message.text) {
         let rs = await mlcode.main(received_message.text);
+        console.log(rs);
         let tR = "";
         if(rs == "greetings") {
             let ans = ['chào bạn','tôi có thể giúp gì cho bạn','rất vui được hỗ trợ bạn'];
