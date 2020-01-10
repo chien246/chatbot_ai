@@ -4,7 +4,7 @@ const request = require("request");
 const RestClient = require('node-rest-client').Client;
 const _ = require('lodash');
 const validateMessage = require('./regexMessage').vaidateMessage;
-const clearEnglish = require('./regexMessage').clearEnglish;
+
 const parseString = require('xml2js').parseString;
 const vntk = require('vntk');
 const mlcode = require('../mlCode.js');
