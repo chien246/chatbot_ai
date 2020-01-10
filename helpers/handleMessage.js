@@ -137,7 +137,7 @@ module.exports.handleMessage = async (sender_psid, received_message) => {
             response = now+"\n"+forecast_j;
         };
         if(rs == "quantity") {
-            response = "Chúng tôi có tổng cộng là 8 sân bạn nhé";
+            response = now+"\n"+forecast_j;
         };
         
         console.log(response);
