@@ -142,7 +142,7 @@ module.exports.handleMessage = async (sender_psid, received_message) => {
         let text = {"text": `${response}`};
         
         callSendAPI(sender_psid,text);
-    } 
+    } else console.log("hihi");
 };
 
 const callSendAPI = (sender_psid, response, cb = null) => {
