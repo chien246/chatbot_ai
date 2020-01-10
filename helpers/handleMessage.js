@@ -3,7 +3,6 @@ const timeout = 3000;
 const request = require("request");
 const RestClient = require('node-rest-client').Client;
 const _ = require('lodash');
-const validateMessage = require('./regexMessage').vaidateMessage;
 
 const parseString = require('xml2js').parseString;
 const vntk = require('vntk');
