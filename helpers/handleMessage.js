@@ -132,7 +132,8 @@ module.exports.handleMessage = async (sender_psid, received_message) => {
         if(rs == "greetings") {
             let ans = ['chào bạn','tôi có thể giúp gì cho bạn','rất vui được hỗ trợ bạn'];
             let index = Math.floor(Math.random()*ans.length);
-            response = ans[index];
+            //response = ans[index];
+            response="hihi";
         };
         if(rs == "weather") {
             response = now+forecast_j;
